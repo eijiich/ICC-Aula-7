@@ -13,8 +13,6 @@ struct motors{
     int m2;
 };
 
-typedef struct sensors ss;
-
 struct sensors LeSensores();
 struct motors IA(struct sensors sss);
 void Motor(struct sensors ssss, struct motors mmm);
